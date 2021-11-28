@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regression" duration-ms="21285" started-at="2021-11-28T11:49:09 EST" finished-at="2021-11-28T11:49:30 EST">
+    <groups>
+      <group name="Functional">
+        <method signature="propertiesNewTest.f()[pri:0, instance:RegressionTests.propertiesNewTest@307f6b8c]" name="f" class="RegressionTests.propertiesNewTest"/>
+      </group> <!-- Functional -->
+    </groups>
+    <test name="test1" duration-ms="21285" started-at="2021-11-28T11:49:09 EST" finished-at="2021-11-28T11:49:30 EST">
+      <class name="RegressionTests.propertiesNewTest">
+        <test-method status="PASS" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:RegressionTests.propertiesNewTest@307f6b8c]" name="browser" is-config="true" duration-ms="9843" started-at="2021-11-28T11:49:09 EST" finished-at="2021-11-28T11:49:19 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="f()[pri:0, instance:RegressionTests.propertiesNewTest@307f6b8c]" name="f" duration-ms="1715" started-at="2021-11-28T11:49:19 EST" finished-at="2021-11-28T11:49:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:RegressionTests.propertiesNewTest@307f6b8c]" name="afterTest" is-config="true" duration-ms="9316" started-at="2021-11-28T11:49:21 EST" finished-at="2021-11-28T11:49:30 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- RegressionTests.propertiesNewTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- regression -->
+</testng-results>

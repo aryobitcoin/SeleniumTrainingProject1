@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression" >
+<parameter name="url" value="https://www.facebook.com"></parameter>
+<listeners>
+<listener class-name="CommonCode.BaseClass"></listener>
+</listeners>
+<test name="test1">
+<parameter name="brow" value="chrome"></parameter>
+
+<!--The following is for grouping-->
+<groups>
+<run>
+<include name="Functional"></include>
+</run>
+</groups>
+
+<classes>
+<!-- 
+<class name="RegressionTests.NewTest"></class>
+-->
+
+<!--The following is for database provider using-->
+<!-- 
+<class name="RegressionTests.dpNewTest"></class>
+-->
+
+<!--The following is for properties file using-->
+<class name="RegressionTests.propertiesNewTest"></class>
+
+
+
+</classes>
+</test>
+</suite>
